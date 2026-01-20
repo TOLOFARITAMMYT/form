@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/38e24583556ec368140620174068f71a.jpg);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 87vh;
+}
+
+.signup-main-contianer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 87px;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.signup-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: oswald;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sub-main-header-container{
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30%;
+   margin-bottom: 20px;
+   padding: 20px;
+   border-radius: 6px;
+}
+
+.login-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
