@@ -40,6 +40,7 @@ body{
    margin-bottom: 20px;
    padding: 14px;
    border-radius: 6px;
+   width: 100%;
 }
 
 .login-button-span a{

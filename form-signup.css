@@ -45,7 +45,9 @@ body{
    margin-bottom: 20px;
    padding: 20px;
    border-radius: 6px;
+   width: 100%;
 }
+
 
 .login-container a{
     text-decoration: none;
@@ -59,4 +61,61 @@ body{
     color: black;
     font-size: 20px;
     font-weight: bold;
+}
+
+.main-contianer-form{}
+
+.name-in-container input{
+    width: 100%;
+    outline: none;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.email-in-container input{
+     width: 100%;
+    outline: none;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.password-in-container input{
+    width: 100%;
+    outline: none;
+    padding: 7px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-paragraph{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.signup-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    width: 100%;
+    margin-top: 10px;
+   background-color:  #2563EB;
+   border: none;
+   color: white;
+}
+
+.signup-button:active{
+    transform: translateY(2px);
+}
+
+.signup-last-details{
+    margin-top: 20px;
 }
